@@ -1,0 +1,64 @@
+/* IMPORTING FONT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*RESET*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(131, 69, 189);
+    font-family: 'Roboto', sans-serif;
+}
+
+/*TITLE TEXT*/
+
+.title-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: xxx-large;
+}
+
+/* INPUT SECTION*/
+.todo-container{
+    position: absolute;
+    width: 350px;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+.input-section{
+    background-color: aliceblue;
+}
+
+.input-section input{
+    border-radius: 5px;
+    border: 2px solid rgb(230, 226, 224);
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+ul{
+    text-align: left;
+    padding: 15px;
+}
+
+ul li{
+    list-style: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(230, 226, 224);
+    margin-bottom: 5px;
+    display: flex;
+}
+
+ul li i{
+    text-align: right;
+    flex: 1;
+}
+
+i{
+    cursor: pointer;
+    display: inline;
+}
